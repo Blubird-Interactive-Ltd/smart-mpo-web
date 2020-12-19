@@ -1,0 +1,50 @@
+.login {
+    background-color: #1671b838 !important;
+    /* background: url(http://www.concordpharma-bd.com/product_img/4.jpg) no-repeat center right fixed; */
+   	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* .gradinat_bg {
+    background: linear-gradient(to right, rgba(227, 0, 255, 0.12), rgba(0, 53, 150, 0.86));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
+.login .content{
+	z-index: 999;
+}
+.login_btn, .login_btn:hover, .login_btn:focus{
+	background: linear-gradient(to left, rgb(149, 198, 243), rgb(10, 84, 235));;
+    color: #fff;
+    border-right: 0;
+}
+.login .content .input-icon {
+    border-left: 2px solid #0c52a4!important;
+ }
+ .logo h4{
+    font-family: 'Montserrat', sans-serif;
+ }
+ .login .logo {
+    margin: 80px auto 0px;
+    padding: 15px 15px 0 15px;
+    text-align: center;
+}
+.login .logo h4 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #c10234;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.login .logo>a:hover{
+    text-decoration: none;
+}
+.top_logo img {
+    height: 35px;
+    margin: 15px 15px 0px 15px;
+}
