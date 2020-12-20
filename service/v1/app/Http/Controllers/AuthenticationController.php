@@ -93,6 +93,7 @@ class AuthenticationController extends Controller
 
         //$view_password = Utility::encrypt_string($password);
         $view_password = MD5($password);
+
         $user = User::where('user_id',$user_id)
             ->where('app_password', $view_password)
             ->where('active_imei', $imei)
@@ -103,6 +104,7 @@ class AuthenticationController extends Controller
             ->where('password', Hash::check('password', $password))
             ->where('active_imei', $imei)
             ->first();*/
+
         if(empty($user)){ // No matched found
             return json_encode(['status'=>401,'reason'=>'Invalid credentials']);
         }
