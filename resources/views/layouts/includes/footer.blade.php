@@ -43,7 +43,7 @@
         <script src="{{ asset('assets/pages/scripts/ui-general.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('assets/global/plugins/fastselect/fastselect.standalone.js') }}"></script>
         <script src="{{ asset('assets/global/plugins/fastselect/fastselect.min.js') }}"></script>
-        <script type="text/javascript" src="http://botmonster.com/jquery-bootpag/jquery.bootpag.js"></script>
+        <script type="text/javascript" src="https://botmonster.com/jquery-bootpag/jquery.bootpag.js"></script>
         <script src="{{ asset('assets/global/plugins/tempust/tempust.min.js') }}"></script>
         <script src="{{ asset('assets/global/plugins/chart.js/Chart.min.js') }}"></script>
         <script src="{{ asset('assets/custom/js/charts.js') }}"></script> 

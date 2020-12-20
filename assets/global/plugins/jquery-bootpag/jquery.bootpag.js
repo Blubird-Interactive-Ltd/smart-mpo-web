@@ -8,7 +8,7 @@
  *   http://www.opensource.org/licenses/mit-license.php
  *
  * Project home:
- *   http://botmonster.com/jquery-bootpag/
+ *   https://botmonster.com/jquery-bootpag/
  *
  * Version:  1.0.5
  *
